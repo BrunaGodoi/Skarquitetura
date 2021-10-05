@@ -1,0 +1,131 @@
+/* ESTILOS GERAIS */
+html,
+body,
+figure,
+img,
+div,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --cor-primaria: #cbc0a7;
+  --cor-secundaria: #fff;
+  --cor-fonte: #000;
+}
+body {
+  background-color: var(--cor-secundaria);
+  border: solid 50px var(--cor-secundaria);
+  text-align: center;
+  font-family: 'mulish';
+}
+/*HEADER*/
+
+header {
+  border-top: solid 70px var(--cor-primaria);
+  border-left: solid 70px var(--cor-primaria);
+  border-right: solid 70px var(--cor-primaria);
+}
+header .container {
+  background-color: var(--cor-secundaria);
+}
+header img {
+  width: 35%;
+  padding-bottom: 20px;
+}
+/*MAIN PAGINA PRINCIPAL*/
+main {
+  border-left: solid 70px var(--cor-primaria);
+  border-right: solid 70px var(--cor-primaria);
+}
+main .container {
+  background-color: var(--cor-secundaria);
+}
+
+main li {
+  line-height: 50px;
+  font-size: 1.5rem;
+}
+main li a {
+  color: var(--cor-fonte);
+  background-color: var(--cor-primaria);
+}
+/*MAIN SOBRE*/
+main .sobre {
+  padding: 1px 0 0 0;
+}
+.sobre h2 {
+  font-size: 1.5rem;
+  margin: 20px 480px 0;
+  letter-spacing: 2px;
+}
+.sobre p {
+  line-height: 39px;
+  font-size: 1.1rem;
+  padding: 20px 40px 0 40px;
+  letter-spacing: 3px;
+}
+/*MAIN PROJETO*/
+
+main .projeto {
+  padding-top: 10px;
+}
+
+.projeto h1 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+.projeto p {
+  line-height: 39px;
+  font-size: 1.1rem;
+  margin: 40px;
+  letter-spacing: 3px;
+}
+main .imagens img {
+  width: 40%;
+}
+
+/*FOOTER PRINCIPAL*/
+footer {
+  border-bottom: solid 70px var(--cor-primaria);
+  border-left: solid 70px var(--cor-primaria);
+  border-right: solid 70px var(--cor-primaria);
+}
+footer .info-contato {
+  background-color: var(--cor-secundaria);
+  padding: 50px 30px 0;
+}
+footer .info-contato li a {
+  color: var(--cor-fonte);
+}
+footer .info-contato li {
+  display: inline-block;
+}
+footer .info-contato li a img {
+  width: 35px;
+  margin: 15px 15px 10px;
+}
+/*FOOTER SOBRE*/
+footer .foto {
+  background-color: var(--cor-secundaria);
+  padding: 70px 30px 50px;
+}
+footer .foto img {
+  width: 300px;
+  border-radius: 60%;
+}
